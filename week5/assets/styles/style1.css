@@ -1,0 +1,86 @@
+body {
+    background-color: rgb(246, 199, 207);
+}
+
+h1 {
+    color: rgb(204, 53, 184);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.menu1 {
+    margin: 15px;
+    border: 2px solid white;
+    border-radius: 25px ;
+    padding: 15px;
+}
+
+h2 {
+    color:  rgb(204, 53, 184) ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.photo {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    
+}
+
+.gallery {
+    height: 200px;
+    width: 200px;
+    margin: 25px;
+}
+
+.gallery1 {
+    height: 200px;
+    width: 300px;
+    margin: 25px;
+}
+
+.gallery2 {
+    height: 200px;
+    width: 300px;
+    margin: 25px;
+}
+
+.gallery3 {
+    height: 200px;
+    width: 200px;
+    margin: 25px;
+}
+
+.gallery4 {
+    height: 200px;
+    width: 400px;
+    margin: 25px;
+}
+
+.image-container {
+    transition: 1s;
+}
+
+.image-container:hover {
+    transform: scale(1.2);
+}
+
+h4 {
+    opacity: 0;
+    transition: all ease 200ms;
+    color:  rgb(204, 53, 184);
+
+}
+
+.magic:hover .hidden_text {
+    opacity: 1;
+}
