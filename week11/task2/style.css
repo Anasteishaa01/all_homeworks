@@ -1,0 +1,21 @@
+.container_1 {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.img_1 {
+    width: 20%;
+}
+
+.title_1 {
+    grid-column: 2/3;
+}
+
+.text_1 {
+    grid-column: 2/3 ;
+}
+
+.container_2
+.container_3
+.container_4

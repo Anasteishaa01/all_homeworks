@@ -1,0 +1,26 @@
+h1 {
+    text-align: center;
+}
+
+.div_element {
+    display: flex;
+    justify-content: center;
+}
+
+#birthdayMessage {
+    text-align: center;
+}
+
+
+#errorMessage {
+    text-align: center;
+    color: red;
+}
+
+#btn {
+    background-color: rgb(6, 156, 64);
+    border: none;
+    color: white;
+    border-radius: 2px;
+    margin-left: 5px;
+}
